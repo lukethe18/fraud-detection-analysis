@@ -45,7 +45,7 @@ fraud-detection-analysis/
 ## ▶️ How to Run
 1. Clone the repository  
    ```
-   git clone https://github.com/LukeTheivagt/fraud-detection-analysis.git
+   git clone [https://github.com/lukethe18/fraud-detection-analysis.git]
    ```
 2. Install dependencies  
    ```
