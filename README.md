@@ -6,7 +6,7 @@ This project demonstrates an end-to-end fraud analytics workflow, including expl
 This analysis explores a synthetic credit card transaction dataset to identify patterns of fraudulent behavior. I applied a full machine learning pipeline using:
 
 - Exploratory Data Analysis (EDA)
-- Feature engineering (amount deviations, velocity features, distance calculations, time-based flags)
+- Feature engineering (amount deviations, distance calculations, time-based flags)
 - Handling class imbalance using **SMOTE**
 - Logistic Regression baseline model
 - Random Forest
@@ -28,7 +28,6 @@ This analysis explores a synthetic credit card transaction dataset to identify p
 
 ## 🧠 Notable Feature Engineering
 - Amount deviation & Z-scores  
-- Transaction velocity (1h, 24h windows)  
 - Distance between cardholder and merchant  
 - Time-based risk indicators (hour, waking hours)  
 - Categorical encoding  
@@ -36,8 +35,8 @@ This analysis explores a synthetic credit card transaction dataset to identify p
 ## 📁 Repository Structure
 ```
 fraud-detection-analysis/
-│── fraud_detection.ipynb
-│── fraud_detection.py
+│── Synthetic_Fraud_Dataset.ipynb
+│── Synthetic_Fraud_Dataset.py
 │── requirements.txt
 └── README.md
 ```
@@ -62,4 +61,4 @@ fraud-detection-analysis/
 **Luke Theivagt**  
 Data Scientist & Fraud Analyst  
 GitHub: github.com/lukethe18  
-LinkedIn: linkedin.com/in/luketheivagt
+LinkedIn: linkedin.com/in/luke-theivagt
